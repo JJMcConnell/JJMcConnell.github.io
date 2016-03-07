@@ -65,19 +65,19 @@ table {
 
 
 
-
-
 body {
 	background-color: #E5E2DD;
 	top: 0px;
 	left: 0px; 
-	position: relative;
+	
 }
 
 header {
 	position: absolute;
 	left: 15%;
-	
+
+	margin-left: auto;
+	margin-right: auto;
 
 }
 
@@ -104,11 +104,24 @@ h1 {
 }
 
 h2 {
-	position: absolute;
+	position: relative;
 	font-family: helvetica, arial, sans-serif;
 	color: #BBB7B0;
-	right: 15%;
-	left: 15%;
+	
 	font-size: .80em;
 	text-align: center;
 }
+
+.icons {
+	text-align: center;
+	margin: 10px;
+}
+
+img {
+	padding: 10px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+
