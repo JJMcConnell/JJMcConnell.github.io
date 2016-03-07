@@ -87,6 +87,7 @@ h1 {
 	font-size: 4.5em;
 	margin-top: 15px;
 	margin-bottom: 15px;
+	text-align: center;
 
 	text-shadow: 0 1px 0 #ccc, 
                0 2px 0 #c9c9c9,
@@ -109,4 +110,5 @@ h2 {
 	right: 15%;
 	left: 15%;
 	font-size: .80em;
+	text-align: center;
 }
