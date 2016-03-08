@@ -74,8 +74,9 @@ body {
 
 .wrapper {
 	position: absolute;
-	left: 15%;
-
+	left: 0;
+	right: 0;
+	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -128,4 +129,51 @@ h2 {
 a {
 	text-decoration: none;
 }
+
+.shadow {
+	-moz-box-shadow:    inset  0  8px 8px -8px #696868, 
+                        inset  0 -8px 8px -8px #696868;
+    -webkit-box-shadow: inset  0  8px 8px -8px #696868, 
+                        inset  0 -8px 8px -8px #696868;
+     box-shadow:        inset  0  8px 8px -8px #696868, 
+                        inset  0 -8px 8px -8px #696868;
+}
+
+.intro {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+
+
+	
+
+}
+
+.pic {
+	position: relative;
+	left: 10%;
+		
+}
+
+.me {
+
+	height: 35%;
+	width: 35%;
+	padding: 20px;
+}
+
+.bio {
+	position: absolute;
+	top: 20px;
+	left: 55%;
+	right: 10%;
+}
+
+p {
+	font-family: helvetica, arial, sans-serif;
+	color: #BBB7B0;
+	text-align: center;
+	font-size: 1.25em;
+}
+
 
