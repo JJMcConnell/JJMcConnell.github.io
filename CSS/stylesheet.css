@@ -66,7 +66,7 @@ table {
 
 
 body {
-	background-color: #E5E2DD;
+	background-color: #F0F0F0;
 	top: 0px;
 	left: 0px; 
 	
@@ -157,23 +157,26 @@ a {
 
 .me {
 
-	height: 35%;
-	width: 35%;
-	padding: 20px;
+	height: 28%;
+	width: 28%;
+	padding: 10px;
+
 }
 
 .bio {
 	position: absolute;
 	top: 20px;
-	left: 55%;
+	left: 50%;
 	right: 10%;
 }
 
 p {
 	font-family: helvetica, arial, sans-serif;
 	color: #BBB7B0;
-	text-align: center;
-	font-size: 1.25em;
+	text-align: left;
+	font-size: 1.3em;
+
 }
+
 
 
