@@ -183,6 +183,7 @@ a {
 	top: 20px;
 	left: 40%;
 	right: 8%;
+	overflow: hidden;
 }
 
 p {
@@ -191,6 +192,7 @@ p {
 	text-align: left;
 	font-size: 1.2em;
 	line-height: 1.2em;
+
 }
 
 
@@ -199,9 +201,10 @@ p {
 
 @media screen and (max-width: 600px) {
 
-	body {
-		color: blue;
+	
 
+	.wrapper {
+		width: 70%;
 	}
 
 }
