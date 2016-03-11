@@ -109,7 +109,6 @@ h1 {
 
 h2 {
 	position: relative;
-	
 	color: #BBB7B0;
 	font-size: .80em;
 	text-align: center;
@@ -127,10 +126,15 @@ h2 {
 	margin-left: auto;
 	margin-right: auto;
 	display: inline-block;
+
 }
 
 .email {
 	margin-left: -10px;
+}
+
+.github:hover, .linkedin:hover, .email:hover {
+	opacity: 0.6;
 }
 
 
@@ -182,9 +186,11 @@ a {
 }
 
 p {
+	font-family: sans-serif;
 	color: #BBB7B0;
 	text-align: left;
 	font-size: 1.2em;
+	line-height: 1.2em;
 }
 
 
