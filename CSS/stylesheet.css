@@ -167,7 +167,7 @@ a {
 
 .pic {
 	position: relative;
-	left: 10%;
+	left: 6%;
 }
 
 .me {
@@ -195,3 +195,13 @@ p {
 
 
 
+
+
+@media screen and (max-width: 600px) {
+
+	body {
+		color: blue;
+
+	}
+
+}
