@@ -70,6 +70,7 @@ body {
 	top: 0px;
 	left: 0px; 
 	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
 	
 }
 
@@ -183,19 +184,52 @@ a {
 	top: 20px;
 	left: 40%;
 	right: 8%;
-	overflow: hidden;
 }
 
 p {
 	font-family: sans-serif;
 	color: #BBB7B0;
 	text-align: left;
-	font-size: 1.2em;
+	font-size: 1.18em;
 	line-height: 1.2em;
+}
+
+.resume {
+	position: relative;
+	text-align: center;
+	padding-bottom: 20px;
+
 
 }
 
+.button {
+	font-size: 2.2em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	
+	color: #BBB7B0;
+	background-color: #F0F0F0;
+	border: solid 2px #BBB7B0; 
+	padding-left: 10px;
+	padding-right: 10px;
+	
+	
+}
 
+.button:hover {
+	color: #ADA9A2;
+	border-color: #ADA9A2;
+}
+
+.button:active {
+	color: #9B9892;
+	border-color: #9B9892;
+
+}
+
+button:focus {
+	outline: 0;
+}
 
 
 
