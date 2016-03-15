@@ -221,7 +221,7 @@ button:focus {
 	}
 
 	.pic {
-		width: 100%;
+		
 		margin-left: auto;
 		margin-right: auto;
 		left: initial; 
@@ -231,8 +231,6 @@ button:focus {
 		display: block;
 		min-width: 90%;
 		height: auto;
-
-
 	}
 
 	@media screen and (max-width: 500px) {
