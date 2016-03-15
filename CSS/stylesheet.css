@@ -221,8 +221,8 @@ button:focus {
 	}
 
 	.me {
-		height: auto;
-		min-width: 80%;
+		width: auto;
+		min-height: 80%;
 
 	}
 
