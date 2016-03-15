@@ -246,7 +246,7 @@ button:focus {
 
 		.me {
 			min-width: 100%;
-			min-height: 91%;
+			max-height: 91%;
 		}
 
 	}
