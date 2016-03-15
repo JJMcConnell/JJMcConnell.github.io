@@ -229,8 +229,7 @@ button:focus {
 
 	.me {
 		display: block;
-		max-width: 100%;
-		min-width: 90%;
+		min-width: 80%;
 		height: auto;
 	}
 
@@ -238,6 +237,12 @@ button:focus {
 		h1 {
 		font-size: 3.25em;
 		}
+
+		.me {
+			min-width: 100%;
+			height: auto;
+		}
+
 	}
 	
 
