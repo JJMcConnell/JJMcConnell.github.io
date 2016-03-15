@@ -43,24 +43,6 @@ q:before, q:after {
 	content: none;
 }
 
-/* remember to define visible focus styles! 
-:focus {
-	outline: ?????;
-} */
-
-/* remember to highlight inserts somehow! */
-ins {
-	text-decoration: none;
-}
-del {
-	text-decoration: line-through;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
 /* ----------------------End of CSS reset ------------------------------- */ 
 
 
@@ -71,7 +53,6 @@ body {
 	left: 0px; 
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
-	
 }
 
 .wrapper {
@@ -81,7 +62,6 @@ body {
 	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
-
 }
 
 
@@ -143,15 +123,6 @@ a {
 	text-decoration: none;
 }
 
-.shadow {
-	-moz-box-shadow:    inset  0  8px 8px -8px #696868, 
-                        inset  0 -8px 8px -8px #696868;
-    -webkit-box-shadow: inset  0  8px 8px -8px #696868, 
-                        inset  0 -8px 8px -8px #696868;
-     box-shadow:        inset  0  8px 8px -8px #696868, 
-                        inset  0 -8px 8px -8px #696868;
-}
-
 .outset {
 
 	-webkit-box-shadow: 0px 0px 37px -2px rgba(0,0,0,0.15);
@@ -164,6 +135,7 @@ a {
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
+	
 }
 
 .pic {
@@ -172,11 +144,9 @@ a {
 }
 
 .me {
-
-	height: 28%;
-	width: 28%;
+	max-height: 28%;
+	max-width: 28%;
 	padding: 10px;
-
 }
 
 .bio {
@@ -191,7 +161,7 @@ p {
 	font-weight: 300;
 	color: #BBB7B0;
 	text-align: left;
-	font-size: 1.18em;
+	font-size: 1.13em;
 	line-height: 1.2em;
 }
 
@@ -199,13 +169,14 @@ p {
 	position: relative;
 	text-align: center;
 	padding-bottom: 20px;
-}
+	visibility: hidden;
+
+}	
 
 .button {
 	font-size: 2.2em;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
-	
 	color: #BBB7B0;
 	background-color: #F0F0F0;
 	border: solid 2px #BBB7B0; 
@@ -230,12 +201,30 @@ button:focus {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
 
 	
 
 	.wrapper {
 		width: 70%;
 	}
+
+	.intro {
+		display: inline-block;
+	}
+
+	.bio {
+		position: relative;
+		width: auto;
+		left: 0;
+		margin: -5px 15px 45px 15px;
+	}
+
+	.me {
+		min-height: 80%;
+		min-width: 80%;
+
+	}
+
 
 }
