@@ -220,9 +220,16 @@ button:focus {
 		margin: -5px 15px 45px 15px;
 	}
 
+	.pic {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		left: initial; 
+	}
+
 	.me {
 		display: block;
-		min-width: 80%;
+		min-width: 90%;
 		height: auto;
 
 
@@ -231,7 +238,7 @@ button:focus {
 	@media screen and (max-width: 500px) {
 		h1 {
 		font-size: 3.25em;
-	}
+		}
 	}
 	
 
