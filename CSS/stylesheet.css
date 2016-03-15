@@ -224,11 +224,13 @@ button:focus {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		left: initial; 
+		left: 10%;
+		
 	}
 
 	.me {
 		display: block;
+		max-width: 80%;
 		min-width: 80%;
 		height: auto;
 	}
@@ -236,6 +238,10 @@ button:focus {
 	@media screen and (max-width: 500px) {
 		h1 {
 		font-size: 3.25em;
+		}
+
+		.pic {
+			left: 0;
 		}
 
 		.me {
