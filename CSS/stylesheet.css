@@ -199,8 +199,6 @@ p {
 	position: relative;
 	text-align: center;
 	padding-bottom: 20px;
-
-
 }
 
 .button {
@@ -213,8 +211,6 @@ p {
 	border: solid 2px #BBB7B0; 
 	padding-left: 10px;
 	padding-right: 10px;
-	
-	
 }
 
 .button:hover {
